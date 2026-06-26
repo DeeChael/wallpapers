@@ -42,8 +42,8 @@ export default defineConfig({
 
         server.middlewares.use((req, res, next) => {
           const url = (req.url || '').split('?')[0]
-          if (!url.startsWith('/wallpapers/')) return next()
-          const relative = url.slice('/wallpapers/'.length)
+          const base = server.config.base || '/'
+          const relative = url.startsWith(base) ? url.slice(base.length) : url.startsWith('/') ? url.slice(1) : url
           const filePath = join(wallpapersDir, relative)
           if (existsSync(filePath) && statSync(filePath).isFile()) {
             res.writeHead(200, { 'Content-Type': MIME[extname(filePath)] || 'application/octet-stream' })
@@ -72,5 +72,5 @@ export default defineConfig({
       },
     },
   ],
-  base: '/wallpapers/',
+  base: '/',
 })

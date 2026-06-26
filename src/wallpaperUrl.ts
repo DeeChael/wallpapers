@@ -1,3 +1,3 @@
 export function wallpaperUrl(path: string): string {
-  return `/wallpapers/${path}`
+  return `${import.meta.env.BASE_URL}${path}`
 }
