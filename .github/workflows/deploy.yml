@@ -20,7 +20,8 @@ jobs:
 
       - run: npm run build
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
-          personal_token: ${{ secrets.ACCESS_TOKEN }}
-          publish_dir: ./dist
+          token: ${{ secrets.ACCESS_TOKEN }}
+          folder: ./dist
+          branch: gh-pages
