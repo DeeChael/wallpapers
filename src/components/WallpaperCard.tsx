@@ -32,7 +32,6 @@ export default function WallpaperCard({ collection, entry, onClick }: WallpaperC
       </div>
       <div className="wallpaper-info">
         <h3 className="wallpaper-name">{collection.name}</h3>
-        {entry.message && <p className="wallpaper-message">{entry.message}</p>}
         <div className="wallpaper-tags">
           {collection.tags.map((tag) => (
             <span key={tag} className="tag">{tag}</span>
