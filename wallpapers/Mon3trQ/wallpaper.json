@@ -1,0 +1,19 @@
+{
+    "name": "Q版 Mon3tr",
+    "tags": ["明日方舟", "Mon3tr"],
+    "wallpapers": [
+        { "ratio": "10:16", "file": "10_16_4k_unlock.png", "message": "解锁后壁纸" },
+        { "ratio": "10:16", "file": "10_16_4k_lock.png", "message": "锁屏壁纸" },
+        { "ratio": "9:16", "file": "9_16_4k_unlock.png", "message": "解锁后壁纸" },
+        { "ratio": "9:16", "file": "9_16_4k_lock.png", "message": "锁屏壁纸" },
+        { "ratio": "9:20", "file": "9_20_4k_unlock.png", "message": "解锁后壁纸" },
+        { "ratio": "9:20", "file": "9_20_4k_lock.png", "message": "锁屏壁纸" }
+    ],
+    "arts": [
+        {
+            "url": "https://www.pixiv.net/artworks/144374394",
+            "title": "嘿嘿，猞猁活了。（M3）",
+            "author": "二象性冰淇淋"
+        }
+    ]
+}
