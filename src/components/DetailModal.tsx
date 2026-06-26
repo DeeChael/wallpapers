@@ -25,9 +25,9 @@ const ASPECT_LABELS: Record<string, string> = {
   '16:10': '16:10',
   '4:3': '4:3',
   '3:2': '3:2',
-  '10:16': '10:16（竖屏）',
-  '9:16': '9:16（竖屏）',
-  '9:20': '9:20（竖屏）',
+  '10:16': '10:16',
+  '9:16': '9:16',
+  '9:20': '9:20',
 };
 
 export default function DetailModal({ collection, onClose }: DetailModalProps) {
