@@ -2,28 +2,28 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master]
-  workflow_dispatch:
+    branches: [ master ]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
+          node-version: '23'
 
-      - run: npm install
+      - name: Install Dependencies and Build
+        run: |
+          npm install
+          npm run build
 
-      - run: npm ci
-
-      - run: npm run build
-
-      - uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          folder: ./dist
           branch: gh-pages
+          folder: dist
