@@ -1,0 +1,16 @@
+{
+    "name": "Q版 普瑞塞斯",
+    "tags": ["普瑞塞斯", "明日方舟"],
+    "wallpapers": [
+        { "ratio": "16:9", "file": "16_9_4k.png", "message": "16:9" },
+        { "ratio": "16:10", "file": "16_10_4k.png", "message": "16:10" },
+        { "ratio": "9:20", "file": "9_20_4k.png", "message": "9:20" }
+    ],
+    "arts": [
+        {
+            "url": "https://www.pixiv.net/artworks/144633725",
+            "title": "普瑞塞斯",
+            "author": "二象性冰淇淋"
+        }
+    ]
+}
