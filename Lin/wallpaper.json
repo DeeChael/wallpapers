@@ -3,19 +3,26 @@
     "tags": ["明日方舟", "林", "林雨霞"],
     "wallpapers": [
         { "ratio": "16:9", "file": "16_9_4k_unlock.png", "message": "16: 9 解锁后壁纸" },
-        { "ratio": "16:9", "file": "16_9_4k_lock.png", "message": "16: 9 锁屏壁纸" },
+        { "ratio": "16:9", "file": "16_9_4k_lock_light.png", "message": "16: 9 锁屏壁纸（浅色）" },
+        { "ratio": "16:9", "file": "16_9_4k_lock_dark.png", "message": "16: 9 锁屏壁纸（深色）" },
         { "ratio": "16:10", "file": "16_10_4k_unlock.png", "message": "16: 10 解锁后壁纸" },
-        { "ratio": "16:10", "file": "16_10_4k_lock.png", "message": "16: 10 锁屏壁纸" },
+        { "ratio": "16:10", "file": "16_10_4k_lock_light.png", "message": "16: 10 锁屏壁纸（浅色）" },
+        { "ratio": "16:10", "file": "16_10_4k_lock_dark.png", "message": "16: 10 锁屏壁纸（深色）" },
         { "ratio": "4:3", "file": "4_3_4k_unlock.png", "message": "4: 3 解锁后壁纸" },
-        { "ratio": "4:3", "file": "4_3_4k_lock.png", "message": "4: 3 锁屏壁纸" },
+        { "ratio": "4:3", "file": "4_3_4k_lock_light.png", "message": "4: 3 锁屏壁纸（浅色）" },
+        { "ratio": "4:3", "file": "4_3_4k_lock_dark.png", "message": "4: 3 锁屏壁纸（深色）" },
         { "ratio": "3:2", "file": "3_2_4k_unlock.png", "message": "3: 2 解锁后壁纸" },
-        { "ratio": "3:2", "file": "3_2_4k_lock.png", "message": "3: 2 锁屏壁纸" },
+        { "ratio": "3:2", "file": "3_2_4k_lock_light.png", "message": "3: 2 锁屏壁纸（浅色）" },
+        { "ratio": "3:2", "file": "3_2_4k_lock_dark.png", "message": "3: 2 锁屏壁纸（深色）" },
         { "ratio": "10:16", "file": "10_16_4k_unlock.png", "message": "10: 16 解锁后壁纸" },
-        { "ratio": "10:16", "file": "10_16_4k_lock.png", "message": "10: 16 锁屏壁纸" },
+        { "ratio": "10:16", "file": "10_16_4k_lock_light.png", "message": "10: 16 锁屏壁纸（浅色）" },
+        { "ratio": "10:16", "file": "10_16_4k_lock_dark.png", "message": "10: 16 锁屏壁纸（深色）" },
         { "ratio": "9:16", "file": "9_16_4k_unlock.png", "message": "9: 16 解锁后壁纸" },
-        { "ratio": "9:16", "file": "9_16_4k_lock.png", "message": "9: 16 锁屏壁纸" },
+        { "ratio": "9:16", "file": "9_16_4k_lock_light.png", "message": "9: 16 锁屏壁纸（浅色）" },
+        { "ratio": "9:16", "file": "9_16_4k_lock_dark.png", "message": "9: 16 锁屏壁纸（深色）" },
         { "ratio": "9:20", "file": "9_20_4k_unlock.png", "message": "9: 20 解锁后壁纸" },
-        { "ratio": "9:20", "file": "9_20_4k_lock.png", "message": "9: 20 锁屏壁纸" }
+        { "ratio": "9:20", "file": "9_20_4k_lock_light.png", "message": "9: 20 锁屏壁纸（浅色）" },
+        { "ratio": "9:20", "file": "9_20_4k_lock_dark.png", "message": "9: 20 锁屏壁纸（深色）" }
     ],
     "arts": [
         {
